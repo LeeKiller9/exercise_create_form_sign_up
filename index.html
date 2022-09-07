@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="http://demo.codegym.vn/6/registration_form/register.php" method="post">
+        <fieldset>
+            <legend>Form Đăng Kí Tài Khoản</legend>
+            <label for="full_name">Họ và tên<span class="red">*</span><input type="text" id="full_name" name="full_name" required placeholder="John"></label>
+            <label for="email">Email<span class="red">*</span><input type="email" id="email" name="email" required placeholder="abc@gmail.com"></label>
+            <label for="phone">Số điện thoại<span class="red">*</span><input type="text" id="phone" name="phone" pattern="[0-9]{8}" placeholder="09831312" title="0-9, 8 characters" required></label>
+        </fieldset>
+        <fieldset>
+            <label class="small_margin">Giới tính</label>
+            <label class="not_block" for="male"><input type="radio" id="male" name="gender" checked>Nam</label>
+            <label class="not_block right_radio" for="female"><input type="radio" id="female" name="gender">Nữ</label>
+        </fieldset>
+        <input type="submit" value="Đăng Kí">
+
+
+    </form>
+</body>
+</html>

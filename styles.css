@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+form{
+    width: 30%;
+    margin:0 auto;
+}
+
+.red{
+    color: red;
+}
+
+fieldset{
+    border: none;
+}
+
+label:not(.not_block){
+    display: block;
+}
+
+input:not([type=radio]){
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+legend{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+.small_margin{
+    margin-bottom: 5px;
+}
+
+.right_radio{
+    margin-left: 15px;
+}
