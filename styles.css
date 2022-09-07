@@ -48,3 +48,7 @@ label{
 .right_radio{
     margin-left: 15px;
 }
+
+#male, #female{
+    margin-right: 5px;
+}
